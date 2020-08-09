@@ -291,6 +291,22 @@ function addBWPaintings() {
 
 function addColourIllustrations(text_param) {
   return () => {
+    var img_name = [
+      'WEB222_ART/colour01.jpg',
+      'WEB222_ART/colour02.jpg',
+      'WEB222_ART/colour03.jpg',
+      'WEB222_ART/colour04.jpg',
+      'WEB222_ART/colour05.jpg',
+      'WEB222_ART/colour06.jpg',
+      'WEB222_ART/colour07.jpg',
+      'WEB222_ART/colour08.jpg',
+      'WEB222_ART/colour09.jpg',
+      'WEB222_ART/colour010.jpg',
+      'WEB222_ART/colour011.jpg',
+      'WEB222_ART/colour012.jpg',
+      'WEB222_ART/colour013.jpg',
+      'WEB222_ART/colour014.jpg',
+      ];
     var text = [
       'Retro House <br> Print: $15.00',
       'In Passing <br> Print: $20.00',
@@ -323,14 +339,14 @@ function addColourIllustrations(text_param) {
       'A Green Day',
       'The Waves that hit the Beach that Day'
     ];
-    for (var i = 1; i < 15; i++) {
+    for (var i = 0; i < 14; i++) {
       var fig2 = document.createElement('figure');
       var img2 = document.createElement('img');
-      img2.src = 'WEB222_ART/colour0' + i + '.jpg';
-      img2.alt = text_alt[i - 1];
+      img2.src = img_name[i];
+      img2.alt = text_alt[i];
       fig2.appendChild(img2);
       var caption2 = document.createElement('figcaption');
-      caption2.innerHTML = text[i - 1];
+      caption2.innerHTML = text[i];
       fig2.appendChild(caption2);
       document.getElementsByClassName('sect_' + text_param)[0].appendChild(fig2);
     }
@@ -365,14 +381,14 @@ function addBWIllustrations(text_param) {
       'Anyone Home?',
       "Let's Go Back"
     ];
-    for (var i = 1; i < 7; i++) {
+    for (var i = 0; i < 7; i++) {
       var fig2 = document.createElement('figure');
       var img2 = document.createElement('img');
       img2.src = img_name[i];
-      img2.alt = text_alt[i - 1];
+      img2.alt = text_alt[i];
       fig2.appendChild(img2);
       var caption2 = document.createElement('figcaption');
-      caption2.innerHTML = text[i - 1];
+      caption2.innerHTML = text[i];
       fig2.appendChild(caption2);
       document.getElementsByClassName('sect_' + text_param)[0].appendChild(fig2);
     }
