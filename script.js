@@ -184,7 +184,7 @@ function addStamps() {
     // now load all the stamp images
     var fig1 = document.createElement('figure');
     var img1 = document.createElement('IMG');
-    img1.src = 'WEB222_ART/stamp_bee.jpg';
+    img1.src = 'stamp_bee.jpg';
     img1.alt = 'bee';
     fig1.appendChild(img1);
     var caption = document.createElement('figcaption');
