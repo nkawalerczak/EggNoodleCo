@@ -184,7 +184,7 @@ function addStamps() {
     // now load all the stamp images
     var fig1 = document.createElement('figure');
     var img1 = document.createElement('IMG');
-    img1.src = '/WEB222_ART/stamp_bee.jpg';
+    img1.src = 'WEB222_ART/stamp_bee.jpg';
     img1.alt = 'bee';
     fig1.appendChild(img1);
     var caption = document.createElement('figcaption');
@@ -193,7 +193,7 @@ function addStamps() {
 
     var fig2 = document.createElement('figure');
     var img2 = document.createElement('IMG');
-    img2.src = '/WEB222_ART/stamp_bunnies.jpg';
+    img2.src = 'WEB222_ART/stamp_bunnies.jpg';
     img2.alt = 'bunny';
     fig2.appendChild(img2);
     var caption2 = document.createElement('figcaption');
@@ -202,7 +202,7 @@ function addStamps() {
 
     var fig3 = document.createElement('figure');
     var img3 = document.createElement('IMG');
-    img3.src = '/WEB222_ART/stamp_mountains01.jpg';
+    img3.src = 'WEB222_ART/stamp_mountains01.jpg';
     img3.alt = 'mountain';
     fig3.appendChild(img3);
     var caption3 = document.createElement('figcaption');
@@ -212,7 +212,7 @@ function addStamps() {
 
     var fig4 = document.createElement('figure');
     var img4 = document.createElement('IMG');
-    img4.src = '/WEB222_ART/stamp_mushroom01.jpg';
+    img4.src = 'WEB222_ART/stamp_mushroom01.jpg';
     img4.alt = 'mushroom';
     fig4.appendChild(img4);
     var caption4 = document.createElement('figcaption');
@@ -221,7 +221,7 @@ function addStamps() {
 
     var fig5 = document.createElement('figure');
     var img5 = document.createElement('IMG');
-    img5.src = '/WEB222_ART/stamp_mushrooms02.jpg';
+    img5.src = 'WEB222_ART/stamp_mushrooms02.jpg';
     img5.alt = 'mushrooom';
     fig5.appendChild(img5);
     var caption5 = document.createElement('figcaption');
@@ -230,7 +230,7 @@ function addStamps() {
 
     var fig6 = document.createElement('figure');
     var img6 = document.createElement('IMG');
-    img6.src = '/WEB222_ART/stamp_snake.jpg';
+    img6.src = 'WEB222_ART/stamp_snake.jpg';
     img6.alt = 'snake';
     fig6.appendChild(img6);
     var caption6 = document.createElement('figcaption');
