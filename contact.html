@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="Header">
+    <header>
+      <div id="h_title">
+        <img alt="site_logo" class="site_logo" src="/WEB222_ART/me_logo.jpg" />
+        <a href="index.html" class="homelink">
+          <h1 class="main_title">Egg Noodle Co.</h1>
+        </a>
+        <div class="sub_title">Prints and Cards</div>
+      </div>
+      <div id="MainMenu">
+        <nav class="main-menu">
+          <ul id="menu" data-content-field="navigation">
+            <li class="All_Products">
+              <a href="#">All Products</a>
+            </li>
+            <li class="Cards">
+              <a href="#">Greeting Cards</a>
+            </li>
+            <li class="Paintings">
+              <a>Paintings</a>
+              <!-- DROP DOWN MENU HERE!-->
+              <ul>
+                <li class="Paintings_colour">
+                  <a href="#">Colour</a>
+                </li>
+                <li class="Paintings_bw">
+                  <a href="#">Black & White</a>
+                </li>
+              </ul>
+            </li>
+            <li class="Illustrations">
+              <!-- DROP DOWN MENU HERE!-->
+              <a>Illustrations</a>
+              <ul class="illustrations_dropdown">
+                <li class="Illustrations_colour">
+                  <a href="#">Colour</a>
+                </li>
+                <li class="Illustrations_bw">
+                  <a href="#">Black & White</a>
+                </li>
+              </ul>
+            </li>
+            <li class="Commissions">
+              <a href="#">Commissions</a>
+            </li>
+            <li class="About">
+              <a href="#">About</a>
+            </li>
+            <li class="Contact">
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <!-- Create sections for pages to be loaded into when nav option is clicked -->
+
+  <!-- further sections for rest of pages-->
+  <section class="sect_main">
+    <h1>Contact Us:</h1>
+    <form action="http://httpbin.org/post" method="post">
+      <label for="name_input">Name</label>
+      <br>
+      <input id="name_input" type="text" name="user_name" placeholder="Name" required>
+      <br>
+      <br>
+      <label for="emailsub">E-mail</label>
+      <br>
+      <input id="emailsub" type="email" name="user_email" placeholder="E-mail" required>
+      <br>
+      <br>
+      <label for="address_input">Address</label>
+      <br>
+      <input id="address_input" type="text" name="user_address" placeholder="Address" required>
+      <br>
+      <br>
+      <label for="city_input">City</label>
+      <br>
+      <input class="autocomplete" list="cities" id="city_input" type="text" name="user_city" placeholder="City" required
+        autocomplete="cities">
+      <datalist id="cities">
+        <option value="Toronto">
+        <option value="Montreal">
+        <option value="Ottawa">
+        <option value="Vancouver">
+        <option value="Quebec">
+        <option value="Calgary">
+        <option value="Quebec">
+      </datalist>
+      <br>
+      <br>
+      <label for="pc_input">Postal Code</label>
+      <br>
+      <input id="pc_input" type="text" name="user_pc" placeholder="A1A2B2" required
+        pattern="[A-Za-z][0-9][A-Za-z]* ?[0-9][A-Za-z][0-9]">
+      <br>
+      <br>
+      <label for="reason">What is this about?</label>
+      <br>
+      <input type="radio" id="question" name="reason" value="Question"> Question <br>
+      <input type="radio" id="comment" name="reason" value="Comment"> Comment <br>
+      <input type="radio" id="problem" name="reason" value="Order Problem"> Order Problem
+      <br>
+      <div id="order_problem" style:"display: none">
+        <input type="text" id="order_problem2" name="order_problem2" placeholder="Enter Order Number">
+      </div>
+      <br>
+      <br>
+      <label for="message">Additional information:</label>
+      <br>
+      <input type="text" id="message" name="message" required>
+      <input type="hidden" id="authorName" name="authorName" value="Natalie Kawalerczak">
+      <br>
+      <br>
+      <input type="submit" class="button" />
+    </form>
+  </section>
+  <section class="sect_two"></section>
+
+  <footer id="footer">
+    <div class="footer_center">
+      <h1>Egg Noodle Co.</h1>
+      <div class="footer_field">
+        <a class="footer_isnta" href="http://instagram.com/egg.noodle.co">
+          <img alt="insta" class="logos" src="WEB222_ART/insta_logo.png" />
+        </a>
+        <a class="footer_fb" href="http://facebook.com">
+          <img alt="fb" class="logos" src="WEB222_ART/fb_logo.png" />
+        </a>
+        <a class="footer_twit" href="http://twitter.com">
+          <img alt="twitter" class="logos" src="WEB222_ART/twit_logo.png" />
+        </a>
+      </div>
+    </div>
+    <div class="subscribe">
+      <form action="https://formspree.io/xqkyjkda" method="post">
+        <label for="emailsub">Subscribe!</label>
+        <br>
+        <input id="emailsub" type="email" name="user_email" placeholder="E-mail" required>
+        <br>
+        <input type="submit" class="button" />
+      </form>
+    </div>
+  </footer>
+</body>
+
+</html>
