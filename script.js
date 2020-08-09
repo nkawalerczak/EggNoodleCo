@@ -339,6 +339,16 @@ function addColourIllustrations(text_param) {
 
 function addBWIllustrations(text_param) {
   return () => {
+    var img_name = [
+      'WEB222_ART/ink_apartments01.jpg',
+      'WEB222_ART/ink_apartments02.jpg',
+      'WEB222_ART/ink_apartments03.jpg',
+      'WEB222_ART/ink_apartments04.jpg',
+      'WEB222_ART/ink_apartments05.jpg',
+      'WEB222_ART/ink_apartments06.jpg',
+      'WEB222_ART/ink_apartments07.jpg'
+      ];
+      
     var text = [
       'Case Study 01 <br> Print: $40.00',
       'Store Front <br> Print: $30.00',
@@ -358,7 +368,7 @@ function addBWIllustrations(text_param) {
     for (var i = 1; i < 7; i++) {
       var fig2 = document.createElement('figure');
       var img2 = document.createElement('img');
-      img2.src = 'WEB222_ART/ink_apartments0' + i + '.jpg';
+      img2.src = img_name[i];
       img2.alt = text_alt[i - 1];
       fig2.appendChild(img2);
       var caption2 = document.createElement('figcaption');
