@@ -252,7 +252,7 @@ function addColourPaintings() {
 
     var fig1 = document.createElement('figure');
     var img1 = document.createElement('img');
-    img1.src = '/WEB222_ART/colour_castle_painting.jpg';
+    img1.src = 'WEB222_ART/colour_castle_painting.jpg';
     img1.alt = 'castle';
     fig1.appendChild(img1);
     var caption1 = document.createElement('figcaption');
@@ -262,7 +262,7 @@ function addColourPaintings() {
 
     var fig2 = document.createElement('figure');
     var img2 = document.createElement('img');
-    img2.src = '/WEB222_ART/colour_painting.jpg';
+    img2.src = 'WEB222_ART/colour_painting.jpg';
     img2.alt = 'waves';
     fig2.appendChild(img2);
     var caption2 = document.createElement('figcaption');
@@ -279,7 +279,7 @@ function addBWPaintings() {
 
     var fig1 = document.createElement('figure');
     var img1 = document.createElement('img');
-    img1.src = '/WEB222_ART/painting_bw.jpg';
+    img1.src = 'WEB222_ART/painting_bw.jpg';
     img1.alt = 'mountains';
     fig1.appendChild(img1);
     var caption1 = document.createElement('figcaption');
@@ -326,7 +326,7 @@ function addColourIllustrations(text_param) {
     for (var i = 1; i < 15; i++) {
       var fig2 = document.createElement('figure');
       var img2 = document.createElement('img');
-      img2.src = '/WEB222_ART/colour0' + i + '.jpg';
+      img2.src = 'WEB222_ART/colour0' + i + '.jpg';
       img2.alt = text_alt[i - 1];
       fig2.appendChild(img2);
       var caption2 = document.createElement('figcaption');
@@ -358,7 +358,7 @@ function addBWIllustrations(text_param) {
     for (var i = 1; i < 7; i++) {
       var fig2 = document.createElement('figure');
       var img2 = document.createElement('img');
-      img2.src = '/WEB222_ART/ink_apartments0' + i + '.jpg';
+      img2.src = 'WEB222_ART/ink_apartments0' + i + '.jpg';
       img2.alt = text_alt[i - 1];
       fig2.appendChild(img2);
       var caption2 = document.createElement('figcaption');
@@ -375,7 +375,7 @@ function loadArtistImage() {
 
     // create the image elemenet to be displayed in this section:
     var img1 = document.createElement('IMG');
-    img1.src = '/WEB222_ART/artist_profile.jpg';
+    img1.src = 'WEB222_ART/artist_profile.jpg';
     img1.id = 'ArtistPortrait';
     img1.class = 'center';
     img1.title = 'Seoul, South Korea';
