@@ -96,7 +96,6 @@ nav a:visited {
 }
 nav a:hover {
   background-color: transparent;
-  position: static;
 }
 nav ul {
   background-color: rgb(243, 148, 114);
@@ -130,7 +129,6 @@ nav ul li ul a:hover {
   padding: 0;
   opacity: 0.9;
   text-align: left;
-  position: static;
 }
 nav ul li ul li {
   display: block;
