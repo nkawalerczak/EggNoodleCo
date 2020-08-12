@@ -297,6 +297,3 @@ footer h1 {
 #problem:checked ~ #order_problem {
   display: block;
 }
-#contactform {
-  width: 600px;
-}
